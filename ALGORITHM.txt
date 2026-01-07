@@ -3,7 +3,7 @@ START
 Input number of students
 Input number of modules
 
-FOR each student from 1 to number of students
+FOR each student from 1 to number of students + 1
     totalScore = 0
 
     FOR each module from 1 to number of modules
@@ -13,7 +13,7 @@ FOR each student from 1 to number of students
 
     averageScore = totalScore / number of modules
 
-    IF averageScore >= 75
+    IF averageScore >= 80
         Display "Excellent Performance"
     ELSE IF averageScore >= 60
         Display "Average Performance"
@@ -22,5 +22,6 @@ FOR each student from 1 to number of students
     END IF
 
 END FOR
+
 
 END
