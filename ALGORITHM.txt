@@ -15,12 +15,13 @@ FOR each student from 1 to number of students
 
     IF averageScore >= 75
         Display "Excellent Performance"
-    ELSE IF averageScore >= 60
+    ELSE IF averageScore >= 65
         Display "Average Performance"
     ELSE
         Display "Weak Performance"
     END IF
 
 END FOR
+
 
 END
